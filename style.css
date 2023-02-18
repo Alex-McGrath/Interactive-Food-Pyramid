@@ -1,0 +1,121 @@
+.header{
+  border-bottom: solid;
+  padding:10px;
+}
+.test{
+  border: 1px solid black;
+  display: inline-block;
+  padding:1%;
+}
+.text{
+    font-family: Helvetica;
+    margin:auto;
+
+}
+.ageForm{
+    font-family: Helvetica;
+    text-align: center;
+    border: 1px solid black;
+    display: inline-block;
+   padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.pyramid {
+    clip-path: polygon(50% 0, 100%  100% , 0 100%);
+    width: 100vmin;
+    aspect-ratio: 2/1;
+    display: grid;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Helvetica;
+
+  }
+.spacer{
+  height:10px;
+}
+  .buttonCircle{
+    
+      border-radius: 50%;
+      padding: 10px;
+      background: white;
+      border: 1px solid #000;
+      position: relative;
+      top:-15%
+  }
+  .one {
+    background-color: #EA1B07;
+    padding-top: 10%; 
+  }
+  .one:hover{
+      background-color: lightgray;
+  }
+
+  .two {
+    background-color: orange;
+    padding-top: 5%;
+    
+
+  }
+  .two:hover{
+      background-color: lightgray;
+
+  }
+
+  .three {
+    background-color: #F9E029;
+    padding-top: 5%;
+  }
+  .three:hover{
+      background-color: lightgray;
+
+  }
+
+  .four {
+    background-color: #049DFC;
+    padding-top: 5%;
+  }
+  .four:hover{
+      background-color: lightgray;
+  }
+
+  .five {
+    background-color: #A77643;
+    padding-top: 5%;
+  }
+  .five:hover{
+      background-color: lightgray;
+  }
+
+  .six {
+    background-color: #5CD533;
+    padding-top: 5%;
+  }
+  .six:hover{
+      background-color: lightgray;
+  }
+  
+
+.resultContainer {
+  min-height:50px;
+
+
+}
+
+
+.resultContainer .viewThisResult {
+  display: none;
+}
+.resultContainer:hover .viewThisResult {
+  display: inline;
+}

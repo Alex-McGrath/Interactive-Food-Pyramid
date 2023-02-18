@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+	<title>Food Pyramid</title>
+
+    <div class="header">
+    <h1 class="text">Food Pyramid</h1>
+    <h3 class="text">Alex McGrath - 21397613</h2>
+    </div>
+    
+    <br>
+    <div class="test">
+        <h4 class="text">Please enter todays date for the daily record:</h4>
+
+        <input type="text" id="DateInput" placeholder="DD/MM/YYYY" maxlength="10">
+        <button onclick="dateFunc()">Submit</button>
+        <div class="text">
+            <h4 id="message"> DD/MM/YYYY</h4>
+        </div>
+
+        <form class="ageForm" name="ageBracket" method="get" >
+            <h4><u>Your Age Bracket:</u></h4>
+            <input type="radio" name="ageCheck" value="low" checked/>Ages 1-4
+            <input type="radio" name="ageCheck" value="high"/>Ages 4+
+        </form>
+    </div>
+
+
+
+</head>
+<body>
+
+
+
+<div class="pyramid" >
+
+    <div class="one">
+        <div >Shelf 1</div>
+        <div class="resultContainer">
+            <div class ="viewThisResult">
+        <button  onClick="onMinus(1)">-</button>
+
+        <button  onClick="onClick(1)">+</button>
+    </div>
+</div>
+<a id="clicks"class="buttonCircle" >0</a>
+
+      </div>
+      
+        <div class="spacer"></div> <!--DELETE THIS IF GAP NOT REQUIRED-->
+
+        <div class="two">
+            <div >Shelf 2</div>
+            <div class="resultContainer">
+                <div class ="viewThisResult">
+            <button  onClick="onMinus(2)">-</button>
+            <button  onClick="onClick(2)">+</button>
+            </div>
+            </div>
+            <a id="clicks2"class="buttonCircle" >0</a>
+        </div>
+
+        <div class="spacer"></div><!--DELETE THIS IF GAP NOT REQUIRED-->
+
+        <div class="three">
+            <div >Shelf 3</div>
+            <div class="resultContainer">
+                <div class="viewThisResult ">
+                <button  onClick="onMinus(3)">-</button>
+                <button  onClick="onClick(3)">+</button>
+                </div>
+            </div>
+            <a id="clicks3" class="buttonCircle">0</a>
+        </div>
+        <div class="four">
+            <div >Shelf 4</div>
+            <div class="resultContainer">
+                <div class ="viewThisResult">
+            <button  onClick="onMinus(4)">-</button>
+
+                <button  onClick="onClick(4)">+</button>
+                </div>
+                </div>
+                <a id="clicks4" class="buttonCircle">0</a>
+        </div>
+        <div class="five">
+            <div >Shelf 5</div>
+            <div class="resultContainer">
+                <div class ="viewThisResult">
+            <button  onClick="onMinus(5)">-</button>
+                <button  onClick="onClick(5)">+</button>
+                </div>
+                </div>
+                <a id="clicks5"class="buttonCircle" >0</a>
+        </div>
+
+        <div class="six">
+            <div >Shelf 6</div>
+            <div class="resultContainer">
+                <div class ="viewThisResult">
+                <button  onClick="onMinus(6)">-</button>
+                <button  onClick="onClick(6)">+</button>
+                </div>
+                </div>
+                <a id="clicks6" class="buttonCircle">0</a>
+        </div>
+
+</div>
+    <br>
+            <!-- MY BUTTON CODE 
+            <div class="button">
+                <button class="button button2" onClick="onMinus()">-</button>
+
+                
+                    <a id="clicks" class="clicks">0</a>
+                
+                <button class="button button1" onClick="onClick()">+</button>
+            </div>
+        -->
+
+    </body>
+</html>
+
